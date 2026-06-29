@@ -305,11 +305,11 @@ HERO
 
     serif;
 
-    font-size:7rem;
+    font-size:6.7rem;
 
     font-weight:300;
 
-    line-height:.92;
+    line-height:.88;
 
     margin-bottom:40px;
 
@@ -321,11 +321,11 @@ HERO
 
     display:flex;
 
-    flex-wrap:wrap;
+    flex-direction:column;
 
-    gap:16px;
+    gap:10px;
 
-    margin-bottom:26px;
+    margin-bottom:40px;
 
 }
 
@@ -370,6 +370,14 @@ HERO
     letter-spacing:3px;
 
     transition:var(--transition);
+
+}
+
+.hero-btn{
+
+    transition:.8s;
+
+    overflow:hidden;
 
 }
 

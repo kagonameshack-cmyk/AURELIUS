@@ -774,6 +774,18 @@ VIDEO
 
 }
 
+.hero-video{
+
+    filter:
+
+    brightness(.78)
+
+    contrast(1.05)
+
+    saturate(.88);
+
+}
+
 @keyframes heroZoom{
 
     from{
@@ -801,11 +813,18 @@ OVERLAY
     inset:0;
 
     background:
-    linear-gradient(
-        to bottom,
-        rgba(0,0,0,.18),
-        rgba(0,0,0,.72)
-    );
+
+linear-gradient(
+
+180deg,
+
+rgba(0,0,0,.08),
+
+rgba(0,0,0,.78),
+
+rgba(0,0,0,.94)
+
+);
 
     z-index:-2;
 
@@ -1073,7 +1092,7 @@ SCROLL INDICATOR
 
     width:1px;
 
-    height:70px;
+    height:90px;
 
     background:
 

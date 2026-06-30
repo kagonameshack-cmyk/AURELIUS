@@ -1338,3 +1338,143 @@ BELIEF
     }
 
 }
+
+
+
+/*==================================================
+ACT III
+THE BUILDER
+==================================================*/
+
+.builder{
+
+    background:#0A0A0A;
+
+    padding:180px 0;
+
+}
+
+.builder-intro{
+
+    max-width:900px;
+
+    margin:0 auto 140px;
+
+    text-align:center;
+
+}
+
+.builder-intro h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:clamp(3rem,6vw,5.5rem);
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    color:var(--text);
+
+}
+
+.builder-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:100px;
+
+    align-items:center;
+
+}
+
+.builder-image img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:2px;
+
+    filter:grayscale(100%) contrast(105%);
+
+}
+
+.builder-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:34px;
+
+}
+
+.builder-content p{
+
+    color:var(--text-soft);
+
+    font-size:1.12rem;
+
+    line-height:2;
+
+    max-width:520px;
+
+}
+
+.builder-divider{
+
+    width:80px;
+
+    height:1px;
+
+    background:var(--gold);
+
+    margin:12px 0;
+
+}
+
+.builder-ending{
+
+    color:var(--gold);
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    font-size:.78rem;
+
+}
+
+
+@media(max-width:900px){
+
+    .builder{
+
+        padding:120px 0;
+
+    }
+
+    .builder-grid{
+
+        grid-template-columns:1fr;
+
+        gap:70px;
+
+    }
+
+    .builder-intro{
+
+        margin-bottom:90px;
+
+    }
+
+    .builder-content{
+
+        text-align:left;
+
+    }
+
+}

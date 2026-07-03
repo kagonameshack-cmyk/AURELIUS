@@ -1288,7 +1288,7 @@ BELIEF
 
 .belief-panel{
 
-    min-height:100vh;
+    min-height:110vh;
 
     display:flex;
 
@@ -1302,7 +1302,7 @@ BELIEF
 
 .belief-panel h2{
 
-    max-width:920px;
+    max-width:760px;
 
     text-align:center;
 
@@ -1316,7 +1316,7 @@ BELIEF
 
     color:var(--text);
 
-    letter-spacing:.3px;
+    letter-spacing:0;
 
         }
 

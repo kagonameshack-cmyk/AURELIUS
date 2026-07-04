@@ -1558,27 +1558,7 @@ INTRO
 
 }
 
-/*==================================================
-GOLDEN THREAD
-==================================================*/
 
-.institution-thread{
-
-    position:absolute;
-
-    left:50%;
-
-    top:520px;
-
-    bottom:120px;
-
-    width:1px;
-
-    background:rgba(201,169,125,.18);
-
-    transform:translateX(-50%);
-
-}
 
 /*==================================================
 INSTITUTION

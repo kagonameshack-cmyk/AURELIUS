@@ -1802,11 +1802,19 @@ META
 
 .status{
 
-    font-size:.72rem;
+    display:inline-flex;
+
+    align-items:center;
+
+    padding:8px 18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:999px;
+
+    font-size:.68rem;
 
     letter-spacing:3px;
-
-    text-transform:uppercase;
 
 }
 

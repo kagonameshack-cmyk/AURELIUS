@@ -2255,3 +2255,227 @@ RESPONSIVE
     }
 
 }
+
+
+
+/*==================================================
+CHAPTER V
+IDEAS
+==================================================*/
+
+.ideas{
+
+    background:#050505;
+
+    padding:220px 0;
+
+}
+
+/*==================================================
+INTRO
+==================================================*/
+
+.ideas-intro{
+
+    max-width:760px;
+
+    margin:0 auto 160px;
+
+    text-align:center;
+
+}
+
+.ideas-intro h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:clamp(3rem,6vw,5.2rem);
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:40px;
+
+}
+
+.ideas-intro p{
+
+    max-width:620px;
+
+    margin:auto;
+
+    color:var(--text-soft);
+
+    line-height:2;
+
+    font-size:1.05rem;
+
+}
+
+
+/*==================================================
+IDEAS LIST
+==================================================*/
+
+.ideas-list{
+
+    max-width:980px;
+
+    margin:auto;
+
+}
+
+
+/*==================================================
+IDEA
+==================================================*/
+
+.idea{
+
+    padding:70px 0;
+
+    border-top:1px solid rgba(255,255,255,.06);
+
+    transition:.7s ease;
+
+}
+
+.idea:last-child{
+
+    border-bottom:1px solid rgba(255,255,255,.06);
+
+}
+
+.idea:hover{
+
+    transform:translateX(12px);
+
+}
+
+
+/*==================================================
+CATEGORY
+==================================================*/
+
+.idea-category{
+
+    display:block;
+
+    color:var(--gold);
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    font-size:.74rem;
+
+    margin-bottom:18px;
+
+}
+
+
+/*==================================================
+TITLE
+==================================================*/
+
+.idea h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:2.8rem;
+
+    font-weight:300;
+
+    margin-bottom:24px;
+
+    transition:.6s ease;
+
+}
+
+.idea:hover h3{
+
+    color:var(--gold);
+
+}
+
+
+/*==================================================
+TEXT
+==================================================*/
+
+.idea p{
+
+    max-width:520px;
+
+    color:var(--text-soft);
+
+    line-height:2;
+
+    margin-bottom:32px;
+
+}
+
+
+/*==================================================
+LINK
+==================================================*/
+
+.idea a{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-size:.82rem;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    transition:.6s ease;
+
+}
+
+.idea a:hover{
+
+    color:var(--gold);
+
+    gap:20px;
+
+}
+
+
+/*==================================================
+FOOTER
+==================================================*/
+
+.ideas-footer{
+
+    text-align:center;
+
+    margin-top:140px;
+
+}
+
+.ideas-footer a{
+
+    display:inline-block;
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:2rem;
+
+    font-weight:300;
+
+    transition:.6s ease;
+
+}
+
+.ideas-footer a:hover{
+
+    color:var(--gold);
+
+}

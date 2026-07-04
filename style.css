@@ -2000,3 +2000,185 @@ SCROLL REVEAL
     transform:translateY(0);
 
     }
+
+
+
+/*==================================================
+CHAPTER IV
+RESPONSIVE
+==================================================*/
+
+@media (max-width:1100px){
+
+    .institution{
+
+        gap:80px;
+
+    }
+
+}
+
+
+@media (max-width:900px){
+
+    .institutions{
+
+        padding:140px 0;
+
+    }
+
+    .institutions-intro{
+
+        margin-bottom:110px;
+
+    }
+
+    .institution{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+        margin-bottom:140px;
+
+    }
+
+    .institution.reverse .institution-image,
+
+    .institution.reverse .institution-content{
+
+        order:initial;
+
+    }
+
+    .institution-content{
+
+        max-width:100%;
+
+    }
+
+    .institution-thread{
+
+        display:none;
+
+    }
+
+}
+
+
+@media (max-width:768px){
+
+    .institutions-intro h2{
+
+        font-size:3rem;
+
+        line-height:1.15;
+
+    }
+
+    .institution-content h3{
+
+        font-size:2.5rem;
+
+    }
+
+    .future-box{
+
+        padding:70px 40px;
+
+    }
+
+}
+
+
+@media (max-width:600px){
+
+    .institutions{
+
+        padding:110px 0;
+
+    }
+
+    .section-label{
+
+        letter-spacing:4px;
+
+        font-size:.72rem;
+
+    }
+
+    .institutions-intro{
+
+        margin-bottom:90px;
+
+    }
+
+    .institutions-intro p{
+
+        font-size:1rem;
+
+        line-height:1.9;
+
+    }
+
+    .institution{
+
+        gap:35px;
+
+        margin-bottom:100px;
+
+    }
+
+    .institution-symbol{
+
+        font-size:1.2rem;
+
+    }
+
+    .institution-category{
+
+        letter-spacing:3px;
+
+        font-size:.7rem;
+
+    }
+
+    .institution-content h3{
+
+        font-size:2rem;
+
+    }
+
+    .institution-content p{
+
+        font-size:1rem;
+
+        line-height:1.9;
+
+        margin-bottom:35px;
+
+    }
+
+    .institution-meta{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:18px;
+
+    }
+
+    .future-box{
+
+        padding:50px 28px;
+
+    }
+
+    .future-box h3{
+
+        font-size:2rem;
+
+    }
+
+}

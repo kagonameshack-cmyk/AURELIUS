@@ -15,3 +15,33 @@ window.addEventListener("scroll", () => {
     }
 
 });
+
+
+
+/*=========================================
+SCROLL REVEAL
+=========================================*/
+
+const reveals = document.querySelectorAll(".reveal");
+
+function revealSections(){
+
+    reveals.forEach(item=>{
+
+        const windowHeight = window.innerHeight;
+
+        const top = item.getBoundingClientRect().top;
+
+        if(top < windowHeight - 120){
+
+            item.classList.add("active");
+
+        }
+
+    });
+
+}
+
+window.addEventListener("scroll",revealSections);
+
+revealSections();

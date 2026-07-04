@@ -1656,7 +1656,7 @@ INSTITUTION
 
     align-items:center;
 
-    margin-bottom:220px;
+    margin-bottom:240px;
 
     position:relative;
 
@@ -1700,8 +1700,11 @@ IMAGE
 
     display:block;
 
-    filter:grayscale(100%) contrast(108%);
-
+    filter:
+        grayscale(92%)
+        contrast(108%)
+        brightness(.92);
+    
     transition:1.2s ease;
 
 }

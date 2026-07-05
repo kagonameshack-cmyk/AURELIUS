@@ -2734,11 +2734,19 @@ PRINCIPLES
 
 }
 
+.legacy-item{
+
+    transition:
+    transform .7s ease,
+    border-color .7s ease;
+
+}
+
 .legacy-item:hover{
 
-    transform:translateX(8px);
+    transform:translateX(6px);
 
-    border-color:rgba(201,169,125,.25);
+    border-color:rgba(201,169,125,.22);
 
 }
 

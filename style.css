@@ -2883,3 +2883,277 @@ RESPONSIVE
     }
 
 }
+
+
+
+
+/*==================================================
+CHAPTER VII
+CONVERSATION
+==================================================*/
+
+.conversation{
+
+    background:#050505;
+
+    padding:220px 0;
+
+}
+
+
+/*==================================================
+INTRO
+==================================================*/
+
+.conversation-intro{
+
+    max-width:860px;
+
+    margin:0 auto 140px;
+
+    text-align:center;
+
+}
+
+.conversation-intro h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:clamp(3rem,6vw,5.4rem);
+
+    font-weight:300;
+
+    line-height:1.12;
+
+    margin-bottom:40px;
+
+}
+
+.conversation-intro p{
+
+    max-width:620px;
+
+    margin:auto;
+
+    color:var(--text-soft);
+
+    font-size:1.08rem;
+
+    line-height:2;
+
+}
+
+
+/*==================================================
+PANEL
+==================================================*/
+
+.conversation-panel{
+
+    display:grid;
+
+    grid-template-columns:1.3fr .7fr;
+
+    gap:80px;
+
+    align-items:center;
+
+    padding:90px;
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:24px;
+
+    backdrop-filter:blur(20px);
+
+    transition:
+
+    transform .8s ease,
+
+    border-color .8s ease;
+
+}
+
+.conversation-panel:hover{
+
+    transform:translateY(-4px);
+
+    border-color:rgba(201,169,125,.18);
+
+}
+
+
+/*==================================================
+TEXT
+==================================================*/
+
+.conversation-text h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:3rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:28px;
+
+}
+
+.conversation-text p{
+
+    max-width:520px;
+
+    color:var(--text-soft);
+
+    line-height:2;
+
+}
+
+
+/*==================================================
+ACTIONS
+==================================================*/
+
+.conversation-actions{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    gap:28px;
+
+}
+
+.conversation-actions span{
+
+    color:var(--text-soft);
+
+    font-size:.9rem;
+
+    letter-spacing:.5px;
+
+        }
+
+
+
+
+/*==================================================
+CHAPTER VII
+RESPONSIVE
+==================================================*/
+
+@media(max-width:900px){
+
+    .conversation{
+
+        padding:140px 0;
+
+    }
+
+    .conversation-intro{
+
+        margin-bottom:90px;
+
+    }
+
+    .conversation-panel{
+
+        grid-template-columns:1fr;
+
+        gap:60px;
+
+        padding:60px;
+
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .conversation-intro h2{
+
+        font-size:3rem;
+
+        line-height:1.18;
+
+    }
+
+    .conversation-text h3{
+
+        font-size:2.3rem;
+
+        line-height:1.2;
+
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .conversation{
+
+        padding:110px 0;
+
+    }
+
+    .conversation-intro{
+
+        margin-bottom:70px;
+
+    }
+
+    .conversation-intro p{
+
+        font-size:1rem;
+
+        line-height:1.9;
+
+    }
+
+    .conversation-panel{
+
+        padding:34px;
+
+        gap:40px;
+
+        border-radius:18px;
+
+    }
+
+    .conversation-text h3{
+
+        font-size:1.9rem;
+
+        margin-bottom:20px;
+
+    }
+
+    .conversation-text p{
+
+        line-height:1.8;
+
+    }
+
+    .conversation-actions{
+
+        gap:18px;
+
+    }
+
+    .conversation-actions .btn{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+}

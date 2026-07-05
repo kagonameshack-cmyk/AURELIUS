@@ -2347,9 +2347,19 @@ IDEA
 
 }
 
+.idea{
+
+    transition:
+    transform .7s ease,
+    border-color .7s ease;
+
+}
+
 .idea:hover{
 
-    transform:translateX(12px);
+    transform:translateX(8px);
+
+    border-color:rgba(201,169,125,.25);
 
 }
 
@@ -2477,5 +2487,121 @@ FOOTER
 .ideas-footer a:hover{
 
     color:var(--gold);
+
+}
+
+
+
+
+/*==================================================
+CHAPTER V
+RESPONSIVE
+==================================================*/
+
+@media(max-width:900px){
+
+    .ideas{
+
+        padding:140px 0;
+
+    }
+
+    .ideas-intro{
+
+        margin-bottom:100px;
+
+    }
+
+    .idea{
+
+        padding:55px 0;
+
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .ideas-intro h2{
+
+        font-size:3rem;
+
+        line-height:1.2;
+
+    }
+
+    .idea h3{
+
+        font-size:2.2rem;
+
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .ideas{
+
+        padding:110px 0;
+
+    }
+
+    .ideas-intro{
+
+        margin-bottom:80px;
+
+    }
+
+    .ideas-intro p{
+
+        font-size:1rem;
+
+    }
+
+    .idea{
+
+        padding:42px 0;
+
+    }
+
+    .idea-category{
+
+        letter-spacing:3px;
+
+        font-size:.68rem;
+
+    }
+
+    .idea h3{
+
+        font-size:1.9rem;
+
+        margin-bottom:18px;
+
+        line-height:1.2;
+
+    }
+
+    .idea p{
+
+        margin-bottom:24px;
+
+        line-height:1.8;
+
+    }
+
+    .ideas-footer{
+
+        margin-top:90px;
+
+    }
+
+    .ideas-footer a{
+
+        font-size:1.6rem;
+
+    }
 
 }

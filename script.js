@@ -73,3 +73,39 @@ window.addEventListener("scroll", () => {
     progress + "%";
 
 });
+
+
+
+
+/*==================================================
+MOBILE MENU
+==================================================*/
+
+const menuToggle = document.querySelector(".menu-toggle");
+const mobileMenu = document.querySelector(".mobile-menu");
+const mobileLinks = document.querySelectorAll(".mobile-menu a");
+
+menuToggle.addEventListener("click", () => {
+
+    menuToggle.classList.toggle("active");
+
+    mobileMenu.classList.toggle("active");
+
+    document.body.classList.toggle("hidden");
+
+});
+
+
+mobileLinks.forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        menuToggle.classList.remove("active");
+
+        mobileMenu.classList.remove("active");
+
+        document.body.classList.remove("hidden");
+
+    });
+
+});

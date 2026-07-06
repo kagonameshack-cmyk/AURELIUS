@@ -45,3 +45,31 @@ function revealSections(){
 window.addEventListener("scroll",revealSections);
 
 revealSections();
+
+
+
+
+
+/*==================================================
+SCROLL PROGRESS
+==================================================*/
+
+const progressBar =
+document.querySelector(".scroll-progress-bar");
+
+window.addEventListener("scroll", () => {
+
+    const scrollTop =
+    window.scrollY;
+
+    const pageHeight =
+    document.documentElement.scrollHeight -
+    window.innerHeight;
+
+    const progress =
+    (scrollTop / pageHeight) * 100;
+
+    progressBar.style.width =
+    progress + "%";
+
+});

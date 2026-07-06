@@ -470,6 +470,8 @@ header{
     background .6s ease,
     border-color .6s ease;
 
+    transform-origin:center;
+
 }
 
 .header-container{
@@ -502,7 +504,13 @@ SCROLLED HEADER
 
 header.scrolled{
 
-    top:18px;
+    top:16px;
+
+    transform:
+
+    translateX(-50%)
+
+    scale(.98);
 
 }
 
@@ -552,7 +560,7 @@ nav{
 
     align-items:center;
 
-    gap:38px;
+    gap:42px;
 
 }
 
@@ -566,13 +574,19 @@ nav a{
 
     letter-spacing:2px;
 
-    transition:.6s ease;
+    padding:8px 0;
+
+    transition:
+
+    color .5s ease,
+
+    opacity .5s ease;
 
 }
 
 nav a:hover{
 
-    color:var(--text);
+    color:var(--gold);
 
 }
 

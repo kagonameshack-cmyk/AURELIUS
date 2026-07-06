@@ -458,7 +458,7 @@ SCROLL PROGRESS
 
     width:100%;
 
-    height:2px;
+    height:1px;
 
     z-index:3000;
 
@@ -480,7 +480,7 @@ SCROLL PROGRESS
         #E5D0A8
     );
 
-    transition:width .08s linear;
+    transition:width .05s linear;
 
     }
 
